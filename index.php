@@ -1,30 +1,28 @@
-<?php 
-$path= 'Paginas/'; //Pasta onde encontra-se as paginas
-include_once($path."header.php");
-$pagina = $_GET['pg'];
-$TypeFile=".php";
+<?php
+require_once(dirname(__FILE__) .'/configuracoes.php');
+include_once($pathPhP.'header'. $phpfile);
 switch ($pagina) {
 // Pagina default quando não é setado uma estring
 default:
-include_once($path.'home'. $TypeFile);
+include_once($pathPhP.'home'. $phpfile);
 break;
 //////////////////
 case 'home';
-include_once($path.'home'.$TypeFile);
+include_once($pathPhP.'home'. $phpfile);
 break;
 
 case 'sobre';
-include_once($path.'sobre'.$TypeFile);
+include_once($pathPhP.'sobre'. $phpfile);
 break;
 
 case 'portifolio';
-include_once($path.'portifolio'.$TypeFile);
+include_once($pathPhP.'portifolio'.$phpfile);
 break;
 
 case 'contato';
-include_once($path.'contato'.$TypeFile);
+include_once($pathPhP.'contato'.$phpfile);
 break;
 
 }
 
-include_once($path."footer". $TypeFile);
+include_once($pathPhP.'footer'. $phpfile);
