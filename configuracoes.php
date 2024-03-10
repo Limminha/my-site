@@ -11,9 +11,9 @@ $jsfile =".js"; // Arquivos com extensão JS
 //////////////////////////////////////////////////////////
 $pagina = $_GET['pg']; // pegando dados da pagína
 //////////////////////////////////////////////////////////
-$titulo = '';
+$titulo = 'Portifólio';
 $desc = '';
-$keywords = '';
+$keywords = 'desenvolvimento web, scrum, ads, mobile, bootstrap, criar site, como criar site, site barato, hospedagem,limminha github, fabiannolimma';
 $nameSite = 'Fabianno Limma';
 
 // the below code fragment can be found in: 
